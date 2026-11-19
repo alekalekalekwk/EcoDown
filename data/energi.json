@@ -1,0 +1,50 @@
+{
+  "status": "contoh",
+  "catatan": "Angka di halaman ini masih data contoh untuk menyiapkan tampilan grafik. Akan diganti dengan hasil angket dan observasi resmi setelah olah data dari mata pelajaran lain diberikan guru.",
+  "diperbarui": "2026-11-19",
+  "grafik": [
+    {
+      "id": "matikan-lampu",
+      "judul": "Kebiasaan mematikan lampu saat keluar kelas",
+      "sumber": "Angket siswa",
+      "keteranganSumber": "120 responden",
+      "arah": "horizontal",
+      "satuan": "siswa",
+      "label": ["Selalu", "Sering", "Kadang-kadang", "Tidak pernah"],
+      "dataset": [
+        { "nama": "Jumlah siswa", "warna": "green", "nilai": [18, 34, 47, 21] }
+      ],
+      "kesimpulan": "Hanya **18 dari 120 siswa (15%)** selalu mematikan lampu saat keluar kelas. Kelompok terbesar baru melakukannya kadang-kadang."
+    },
+    {
+      "id": "daya-standby",
+      "judul": "Tahu bahwa charger yang tercolok tetap memakai listrik",
+      "sumber": "Angket siswa",
+      "keteranganSumber": "120 responden",
+      "arah": "vertikal",
+      "satuan": "siswa",
+      "label": ["Tahu", "Ragu-ragu", "Tidak tahu"],
+      "dataset": [
+        { "nama": "Jumlah siswa", "warna": "yellow", "nilai": [41, 27, 52] }
+      ],
+      "kesimpulan": "**52 siswa** belum tahu soal daya standby, lebih banyak dari yang sudah tahu. Ini topik yang perlu dijelaskan dulu sebelum mengajak mencabut colokan."
+    },
+    {
+      "id": "kelas-kosong",
+      "judul": "Perangkat yang tetap menyala di kelas kosong saat istirahat",
+      "sumber": "Observasi kelas",
+      "keteranganSumber": "5 kelas, Senin sampai Jumat",
+      "arah": "vertikal",
+      "bertumpuk": true,
+      "satuan": "perangkat",
+      "label": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"],
+      "dataset": [
+        { "nama": "Lampu", "warna": "yellow", "nilai": [4, 3, 5, 4, 2] },
+        { "nama": "Kipas angin", "warna": "blue", "nilai": [3, 3, 2, 4, 3] },
+        { "nama": "AC", "warna": "green", "nilai": [1, 2, 1, 1, 2] },
+        { "nama": "Proyektor", "warna": "gray", "nilai": [1, 0, 1, 2, 1] }
+      ],
+      "kesimpulan": "Dalam lima hari tercatat **45 perangkat** dibiarkan menyala di kelas kosong. Lampu paling sering terlupa, yaitu 18 kali."
+    }
+  ]
+}
