@@ -1,0 +1,64 @@
+{
+  "status": "contoh",
+  "catatan": "Rekomendasi ini disusun dari data contoh di halaman Data & Fakta. Isinya akan disesuaikan setelah hasil angket dan observasi resmi diberikan.",
+  "diperbarui": "2026-11-20",
+  "rekomendasi": [
+    {
+      "id": "piket-lampu",
+      "judul": "Regu piket mengecek sakelar lampu setiap jam istirahat",
+      "grafik": "kelas-kosong",
+      "temuan": "Lampu paling sering dibiarkan menyala di kelas kosong: **18 kali** dalam lima hari observasi.",
+      "pelaksana": "Regu piket",
+      "langkah": [
+        "Siswa piket yang keluar terakhir mematikan semua lampu.",
+        "Tempel jadwal piket di dekat sakelar supaya jelas siapa yang bertugas hari itu."
+      ]
+    },
+    {
+      "id": "stiker-pintu",
+      "judul": "Tempel pengingat di pintu kelas",
+      "grafik": "matikan-lampu",
+      "temuan": "Hanya **18 dari 120 siswa (15%)** yang selalu mematikan lampu saat keluar kelas.",
+      "pelaksana": "Semua siswa",
+      "langkah": [
+        "Pasang stiker \"Keluar terakhir? Matikan lampu.\" di sisi dalam pintu, setinggi mata.",
+        "Kelompok EcoDown membagikan stiker ke setiap kelas XI."
+      ]
+    },
+    {
+      "id": "kenalkan-standby",
+      "judul": "Jelaskan daya standby sebelum mengajak mencabut colokan",
+      "grafik": "daya-standby",
+      "temuan": "**52 siswa** belum tahu bahwa charger yang tercolok tetap memakai listrik, lebih banyak dari yang sudah tahu (41).",
+      "pelaksana": "Kelompok EcoDown dan wali kelas",
+      "langkah": [
+        "Penjelasan singkat 5 menit di jam perwalian, dengan contoh charger dan monitor.",
+        "Label kecil \"Sudah penuh? Cabut.\" di dekat stopkontak kelas."
+      ]
+    },
+    {
+      "id": "kipas-ac",
+      "judul": "Kipas dan AC dimatikan sebelum bel istirahat",
+      "grafik": "kelas-kosong",
+      "temuan": "Kipas angin tercatat **15 kali** dan AC **7 kali** tetap menyala di kelas kosong saat istirahat.",
+      "pelaksana": "Ketua kelas",
+      "langkah": [
+        "Ketua kelas memegang remote AC dan mematikannya sebelum keluar kelas.",
+        "Saat AC menyala, pintu dan jendela ditutup rapat."
+      ]
+    }
+  ],
+  "tantangan": {
+    "judul": "Tantangan 7 Hari Sakelar",
+    "ajakan": "Satu kebiasaan kecil per hari. Centang setelah kamu melakukannya, lalu ajak teman sekelas ikut.",
+    "hari": [
+      "Matikan lampu setiap kali keluar dari ruangan.",
+      "Cabut charger begitu baterai sudah penuh.",
+      "Matikan kipas atau AC sebelum jam istirahat.",
+      "Buka tirai dan pakai cahaya matahari sebelum menyalakan lampu.",
+      "Ingatkan satu teman yang lupa mematikan perangkat.",
+      "Di rumah, cabut perangkat di kamarmu yang tidak sedang dipakai.",
+      "Pastikan semua sakelar kelas mati sebelum pulang sekolah."
+    ]
+  }
+}

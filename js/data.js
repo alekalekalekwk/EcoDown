@@ -206,6 +206,9 @@
         return;
       }
       drawCharts();
+      // Tautan dari halaman lain (misal data.html#judul-kelas-kosong) baru bisa digulir setelah grafik dibuat
+      var target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView();
     })
     .catch(function () {
       showError(

@@ -77,6 +77,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -784,6 +788,105 @@ hr.divider {
 
 .loading {
   color: var(--text-3);
+}
+
+/* Tombol */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.93);
+}
+
+.btn-quiet {
+  background: none;
+  color: var(--text-2);
+  box-shadow: inset 0 0 0 1px var(--border-strong);
+}
+
+.btn-quiet:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+  filter: none;
+}
+
+/* Tautan di properti */
+.prop-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--text-3);
+  text-underline-offset: 2px;
+}
+
+.prop-link:hover {
+  text-decoration-color: var(--text);
+}
+
+.props-compact {
+  margin: 4px 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.props-compact .prop {
+  min-height: 28px;
+  padding: 0;
+}
+
+/* Rekomendasi */
+.rec h2 {
+  display: flex;
+  gap: 10px;
+}
+
+.rec-num {
+  flex-shrink: 0;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.rec,
+.content h2[id] {
+  scroll-margin-top: 56px;
+}
+
+/* Progres tantangan */
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 2px 6px;
+  font-size: 14px;
+  color: var(--text-2);
+}
+
+.progress-track {
+  flex: 1;
+  max-width: 260px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--gray-bg);
+  box-shadow: inset 0 0 0 1px var(--border);
+  overflow: hidden;
+}
+
+.progress-fill {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--green);
+  transition: width 0.2s ease;
 }
 
 /* Footer halaman */
